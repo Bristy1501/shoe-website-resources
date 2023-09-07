@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tailwindcss -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Bebas font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+  <style>
+    .font-bebas {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .font-roboto {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .bg-gradient {
+      background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-[#FFF9F4] ">
+    <div class="navbar">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl"><img src="icon/Logo.png" alt="" class=" w-32 md:w-48 lg:w-52"></a>      </div>
+      
+      <div class="flex-none ">
+        <div class="flex-none font-roboto font-medium hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Product</a></li>
+            <li><a>About us</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+
+          <button class="btn btn-square btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+          <ul tabindex="0" class="menu menu-sm absolute mt-3 z-[1] py-2 dropdown-content right-0 shadow bg-base-100 rounded-box w-28">
+            <li><a>Home</a></li>
+            <li><a>Product</a></li>
+            <li><a>About us</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+    
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="">
+        <div class="hero-content flex-col-reverse lg:flex-row lg:mx-20 gap-20 lg:gap-48 ">
+          <img src="/Photos/Group 33092.png" class="max-w-xs md:max-w-sm rounded-lg flex-1 px-10 md:px-0" />
+          <div class=" md:text-center lg:text-left md:px-36 lg:px-0">
+            <h1 class="text-5xl md:text-7xl font-bold text-[#363958] tracking-wide font-bebas lg:pr-10"><span class="text-[#FA804C]">Nike React </span>
+                Infinity Run 2</h1>
+            <p class="py-3 pr-0 lg:pr-10  text-[#3E3E3E] font-roboto ">Lorem Ipsum is simply dummy text of the printing and
+              typesetting
+              industry.</p>
+            <button class="btn bg-gradient font-medium text-white rounded-lg font-roboto px-2 md:px-6"><img
+                src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="mt-20 mx-auto">
+      <h3 class="text-5xl font-bold text-[#363958] tracking-wide font-bebas text-center md:text-left md:ml-10 lg:ml-24">CASUAL SHOES</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-3 lg:mx-20 gap-4 mt-10">
+        <div class="card bg-base-100 shadow-xl ">
+          <figure class="pt-10 bg-[#F1F1F1] m-4">
+            <img src="/Photos/image 5.png" alt="Shoes" class="rounded-xl max-h-60 " />
+          </figure>
+          <div class="card-body items-start">
+            <h2 class="card-title text-2xl font-bold text-[#363958]">Nike Shoe</h2>
+            <p class="text-[#3E3E3E] text-sm">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+            <div class="card-actions items-center gap-12 md:gap-8">
+              <h2 class="font-black text-[#FA804C] text-3xl md:text-4xl">$234</h2>
+              <button class="btn bg-gradient font-medium text-white text-[10px] md:text-base rounded-lg font-roboto px-4 md:px-6"><img
+                src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure class=" pt-10 bg-[#F1F1F1] m-4">
+            <img src="/Photos/Daco_1703273 1.png" alt="Shoes" class="rounded-xl max-h-60 rotate-[5.35deg]" />
+          </figure>
+          <div class="card-body items-start">
+            <h2 class="card-title text-2xl font-bold text-[#363958]">Sneakers Skate Shoe</h2>
+            <p class="text-[#3E3E3E] text-sm">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+              <div class="card-actions items-center gap-12 md:gap-8">
+                <h2 class="font-black text-[#FA804C] text-3xl md:text-4xl">$234</h2>
+                <button class="btn bg-gradient font-medium text-white text-[10px] md:text-base rounded-lg font-roboto px-4 md:px-6"><img
+                  src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+              </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure class=" pt-10 bg-[#F1F1F1] m-4">
+            <img src="/Photos/pngegg 1.png" alt="Shoes" class="rounded-xl max-h-60 rotate-[5.35deg]" />
+          </figure>
+          <div class="card-body items-start">
+            <h2 class="card-title text-2xl font-bold text-[#363958]">Sneakers Basketball Shoe</h2>
+            <p class="text-[#3E3E3E] text-sm">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+              <div class="card-actions items-center gap-12 md:gap-8">
+                <h2 class="font-black text-[#FA804C] text-3xl md:text-4xl">$234</h2>
+                <button class="btn bg-gradient font-medium text-white text-[10px] md:text-base rounded-lg font-roboto px-4 md:px-6"><img
+                  src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-20 mx-auto">
+      <h3 class="text-5xl font-bold text-[#363958] tracking-wide font-bebas text-center md:text-left md:ml-10 lg:ml-24">Formal shoes</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-3 lg:mx-20 gap-4 mt-10">
+        <div class="card bg-white shadow-xl ">
+          <figure class=" pt-10 bg-[#fff] m-4">
+            <img src="/Photos/Mask Group.png" alt="Shoes" class="rounded-xl max-h-60" />
+          </figure>
+          <div class="card-body items-start">
+            <h2 class="card-title text-2xl font-bold text-[#363958]">Prestige High-Cut Leather </h2>
+            <p class="text-[#3E3E3E] text-sm">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+              <div class="card-actions items-center gap-12 md:gap-8">
+                <h2 class="font-black text-[#FA804C] text-3xl md:text-4xl">$234</h2>
+                <button class="btn bg-gradient font-medium text-white text-[10px] md:text-base rounded-lg font-roboto px-4 md:px-6"><img
+                  src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+              </div>
+          </div>
+        </div>
+        <div class="card bg-white shadow-xl">
+          <figure class=" pt-10 bg-[#fff] m-4">
+            <img src="/Photos/Rectangle 38.png" alt="Shoes" class="rounded-xl max-h-60" />
+          </figure>
+          <div class="card-body items-start">
+            <h2 class="card-title text-2xl font-bold text-[#363958]">Slip-On Formal Shoe</h2>
+            <p class="text-[#3E3E3E] text-sm">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+              <div class="card-actions items-center gap-12 md:gap-8">
+                <h2 class="font-black text-[#FA804C] text-3xl md:text-4xl">$234</h2>
+                <button class="btn bg-gradient font-medium text-white text-[10px] md:text-base rounded-lg font-roboto px-4 md:px-6"><img
+                  src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+              </div>
+          </div>
+        </div>
+        <div class="card bg-white shadow-xl">
+          <figure class=" pt-10 bg-[#fff] m-4">
+            <img src="/Photos/Rectangle 39.png" alt="Shoes" class="rounded-xl max-h-60" />
+          </figure>
+          <div class="card-body items-start">
+            <h2 class="card-title text-2xl font-bold text-[#363958]">Slip-On Formal Shoe</h2>
+            <p class="text-[#3E3E3E] text-sm">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+              <div class="card-actions items-center gap-12 md:gap-8">
+                <h2 class="font-black text-[#FA804C] text-3xl md:text-4xl">$234</h2>
+                <button class="btn bg-gradient font-medium text-white text-[10px] md:text-base rounded-lg font-roboto px-4 md:px-6"><img
+                  src="icon/shopping-cart 1.png" alt="" class="w-6"> BUY NOW</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-20 mx-auto mb-20">
+      <div class="flex flex-col-reverse mx-0 lg:mx-20 gap-4 mt-10 lg:flex-row items-center justify-center">
+        <div class="w-[90%] lg:w-[50%] flex flex-col gap-4 ">
+          <div class=" bg-base-100 shadow-xl flex md:flex-row flex-col  items-center justify-center md:justify-start gap-4 p-4 mr-0 lg:mr-28">
+            <img src="/Icon/image 12.png" alt="Shoes" class="rounded-xl max-h-16" />
+            <div class=" flex flex-col items-center justify-center  md:items-start md:justify-start">
+              <h2 class="card-title text-2xl font-bold text-[#363958] ">Find the Perfect Fit</h2>
+              <p class="text-[#3E3E3E] text-sm pr-0 lg:pr-12 text-center md:text-left">Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+          <div class=" bg-base-100 shadow-xl flex md:flex-row flex-col items-center justify-center md:justify-start  gap-4 p-4 mr-0 lg:mr-28">
+            <img src="/Icon/image 13.png" alt="Shoes" class="rounded-xl max-h-16" />
+            <div class="flex flex-col items-center justify-center  md:items-start md:justify-start">
+              <h2 class="card-title text-2xl font-bold text-[#363958]">Free Exchanges</h2>
+              <p class="text-[#3E3E3E] text-sm pr-0 lg:pr-12 text-center md:text-left">One of the many reasons you can shop
+                with peace of mind.</p>
+            </div>
+          </div>
+          <div class=" bg-base-100 shadow-xl flex md:flex-row flex-col items-center justify-center md:justify-start  gap-4 p-4 mr-0 lg:mr-28">
+            <img src="/Icon/image 14.png" alt="Shoes" class="rounded-xl max-h-16" />
+            <div class="flex flex-col items-center justify-center  md:items-start md:justify-start">
+              <h2 class="card-title text-2xl font-bold text-[#363958]">Contact Our Seller</h2>
+              <p class="text-[#3E3E3E] text-sm pr-0 lg:pr-12 text-center md:text-left">They are here to help you. That's quite
+                literally what we pay them for.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[90%] lg:w-[50%]">
+          <img src="/Icon/XMLID 1.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+
+</body>
+
+</html>
